@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
           title: Text('Welcome to Flutter'),
         ),
         body: Center(
-          child: RandomWords(),
+          child: Image(
+      image: NetworkImage('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+),
         ),
       ),
     );
